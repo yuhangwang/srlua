@@ -1,3 +1,5 @@
+
+
 This is a self-running Lua interpreter. It is meant to be combined with a
 Lua program (which may be in either text or precompiled form) into a single,
 stand-alone program that will run the given Lua program when it is run.
@@ -22,3 +24,6 @@ Of course, you can use any name instead of prog.exe.
 
 This code is hereby placed in the public domain.
 Please send comments, suggestions, and bug reports to lhf@tecgraf.puc-rio.br .
+
+> I (Yuhang Wang) have modified the CMakeLists.txt to make it possible to
+make a static "srlua" executable file on linux. (10/08/2015)
